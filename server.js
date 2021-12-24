@@ -24,7 +24,7 @@ app.use(cors());
 
 
 app.get('/',(req,res) => {
-	res.send();
+	res.send('Hello from docker Container');
 })
 
 app.post('/signin',(req,res) => {
